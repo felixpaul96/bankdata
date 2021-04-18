@@ -41,7 +41,7 @@ def run():
         Campaign=st.number_input('campaign',min_value=0.0, max_value=60.0, value=1.0)
         Pdays=st.number_input('pdays',min_value=-1.0, max_value=1000.0, value=1.0)
         Previous=st.number_input('previous',min_value=0.0, max_value=60.0, value=1.0)
-        Poutcome=st.selectbox('poutcome'['unknown','failure','success'])
+        Poutcome=st.selectbox('poutcome',['unknown','failure','success'])
         Response=st.selectbox('response',['yes','no'])
 
 
